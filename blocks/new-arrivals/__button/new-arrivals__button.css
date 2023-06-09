@@ -1,0 +1,11 @@
+.new-arrivals__button {
+  background-image: url(../../../images/new-arrivals__button.svg);
+  grid-area: button;
+  width: 134px;
+  aspect-ratio: 1/1;
+  background-color: transparent;
+  border: none;
+  justify-self: end;
+  margin-top: 73px;
+  padding: 0;
+}

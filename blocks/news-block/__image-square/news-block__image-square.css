@@ -1,0 +1,8 @@
+.news-block__image-square {
+  grid-row: 1/title-end;
+  grid-column: 1;
+  transition: opacity 0.3s ease;
+  object-fit: cover;
+  aspect-ratio: 613/554;
+  width: 100%;
+}

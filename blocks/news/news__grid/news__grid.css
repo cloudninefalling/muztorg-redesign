@@ -1,0 +1,11 @@
+.news__grid {
+  display: grid;
+  grid-template-areas:
+    'square first-rect'
+    'square second-rect';
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  margin: 0 60px 100px;
+
+  gap: 20px;
+}

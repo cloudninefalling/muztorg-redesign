@@ -1,0 +1,9 @@
+.footer__nav {
+  margin: 60px;
+  display: grid;
+  gap: 36px;
+  grid-template-columns: 3fr 2fr 1fr;
+  background-color: inherit;
+  border: none;
+  box-shadow: none;
+}

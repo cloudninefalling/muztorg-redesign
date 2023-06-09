@@ -38,10 +38,16 @@
 @import url(../blocks/guitar-list/guitar-list.css);
 @import url(../blocks/guitar-list/_centered/guitar-list_centered.css);
 @import url(../blocks/guitar-list/__item/guitar-list__item.css);
+@import url(../blocks/guitar-list/__item-background/guitar-list__item-background.css);
 @import url(../blocks/guitar-list/__item-image/guitar-list__item-image.css);
 @import url(../blocks/guitar-list/__item-name/guitar-list__item-name.css);
 @import url(../blocks/guitar-list/__item-price/guitar-list__item-price.css);
 @import url(../blocks/guitar-list/__like-button/guitar-list__like-button.css);
+@import url(../blocks/guitar-list/_off-center/guitar-list_off-center.css);
+@import url(../blocks/guitar-list/__item/_narrow/guitar-list__item_narrow.css);
+@import url(../blocks/guitar-list/__item-name/_dark/guitar-list__item-name_dark.css);
+@import url(../blocks/guitar-list/__item-price/_dark/guitar-list__item-price_dark.css);
+@import url(../blocks/guitar-list/__like-button/_dark/guitar-list__like-button_dark.css);
 
 /* categories */
 @import url(../blocks/categories/__list/categories__list.css);
@@ -55,5 +61,26 @@
 @import url(../blocks/categories/__list-item/_accessories/categories__list-item_accessories.css);
 @import url(../blocks/categories/__list-item/_classical/categories__list-item_classical.css);
 
+/* new-arrivals */
+@import url(../blocks/new-arrivals/new-arrivals.css);
+@import url(../blocks/new-arrivals/__subtitle/new-arrivals__subtitle.css);
+@import url(../blocks/new-arrivals/__bold-span/new-arrivals__bold-span.css);
+@import url(../blocks/new-arrivals/__button/new-arrivals__button.css);
+
+/* news */
+@import url(../blocks/news/news__grid/news__grid.css);
+@import url(../blocks/news-block/_type/news-block_type_rect.css);
+@import url(../blocks/news-block/__image-rect/news-block__image-rect.css);
+@import url(../blocks/news-block/__title-rect/news-block__title-rect.css);
+@import url(../blocks/news-block/__arrow/news-block__arrow.css);
+@import url(../blocks/news-block/_type/news-block_type_square.css);
+@import url(../blocks/news-block/__image-square/news-block__image-square.css);
+@import url(../blocks/news-block/__title-square/news-block__title-square.css);
+@import url(../blocks/news-block/__subtitle/news-block__subtitle.css);
+
 /* footer */
 @import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__nav/footer__nav.css);
+@import url(../blocks/footer/__list/footer__list.css);
+@import url(../blocks/footer/__title/footer__title.css);
+@import url(../blocks/footer/__list-item/footer__list-item.css);

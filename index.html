@@ -13,7 +13,7 @@
     <img class="header__logo" src="./images/logo.png" alt="muztorg logo">
     <nav class="nav">
       <ul class="nav__list nav__list_categories">
-        <li><a href="#" class="nav__list-item">Classic</a></li>
+        <li><a href="#" class="nav__list-item">Classical</a></li>
         <li><a href="#" class="nav__list-item">Acoustic</a></li>
         <li><a href="#" class="nav__list-item">Electric</a></li>
         <li><a href="#" class="nav__list-item">Bass</a></li>
@@ -59,23 +59,33 @@
         <span class="bestsellers__banner-span">bestsellers</span>
         <div class="bestsellers__banner-star"></div>
         <span class="bestsellers__banner-span">bestsellers</span>
+        <div class="bestsellers__banner-star"></div>
+        <span class="bestsellers__banner-span">bestsellers</span>
+        <div class="bestsellers__banner-star"></div>
+        <span class="bestsellers__banner-span">bestsellers</span>
       </div>
 
       <ul class="guitar-list guitar-list_centered">
         <li class="guitar-list__item">
-          <img class="guitar-list__item-image" src="./images/guitars/stratocaster-cory-wong.jpg" alt="Cory Wong Stratocaster">
+          <div class="guitar-list__item-background">
+            <img class="guitar-list__item-image" src="./images/guitars/stratocaster-cory-wong.png" alt="Cory Wong Stratocaster">
+          </div>
           <p class="guitar-list__item-name">Cory Wong Stratocaster®</p>
           <p class="guitar-list__item-price">$1,999</p>
           <button type="button" class="guitar-list__like-button"></button>
         </li>
         <li class="guitar-list__item">
-          <img class="guitar-list__item-image" src="./images/guitars/stratocaster-player-hss.jpg" alt="Player Stratocaster HSS">
+          <div class="guitar-list__item-background">
+            <img class="guitar-list__item-image" src="./images/guitars/stratocaster-player-hss.png" alt="Player Stratocaster HSS">
+          </div>
           <p class="guitar-list__item-name">Player Stratocaster® HSS</p>
           <p class="guitar-list__item-price">$829</p>
           <button type="button" class="guitar-list__like-button"></button>
         </li>
         <li class="guitar-list__item">
-          <img class="guitar-list__item-image" src="./images/guitars/telecaster-acoustasonic-american.jpg" alt="American Acoustasonic Telecaster">
+          <div class="guitar-list__item-background">
+            <img class="guitar-list__item-image" src="./images/guitars/telecaster-acoustasonic-american.png" alt="American Acoustasonic Telecaster">
+          </div>
           <p class="guitar-list__item-name">American Acoustasonic® Telecaster®</p>
           <p class="guitar-list__item-price">$1,999</p>
           <button type="button" class="guitar-list__like-button"></button>
@@ -98,18 +108,96 @@
     <section class="new-arrivals">
       <h2 class="section-title">new arrivals</h2>
       <p class="new-arrivals__subtitle">
-        The new line of&nbsp;Fender Rarities guitars 
+        The new line of&nbsp;<span class="new-arrivals__bold-span">Fender Rarities</span> guitars 
         in&nbsp;2021. The line includes eight electric guitars
         and one bass. A&nbsp;distinctive feature of&nbsp;guitars 
         is&nbsp;the use of&nbsp;the highest quality wood species, 
         premium lacquers and paints, as&nbsp;well as&nbsp;the most 
         accurate electronics.
       </p>
+      <button class="new-arrivals__button" type="button"></button>
+
+      <ul class="guitar-list guitar-list_off-center">
+        <li class="guitar-list__item guitar-list__item_narrow">
+          <div class="guitar-list__item-background">
+            <img class="guitar-list__item-image" src="./images/guitars/stratocaster-boxer-hh.png" alt="Boxer Series Stratocaster HH">
+          </div>
+          <p class="guitar-list__item-name guitar-list__item-name_dark">Boxer™ Series Stratocaster® HH</p>
+          <p class="guitar-list__item-price guitar-list__item-price_dark">$1,199</p>
+          <button type="button" class="guitar-list__like-button guitar-list__like-button_dark"></button>
+        </li>
+        <li class="guitar-list__item guitar-list__item_narrow">
+          <div class="guitar-list__item-background">
+            <img class="guitar-list__item-image" src="./images/guitars/telecaster-jimmy-page.png" alt="Jimmy Page Telecaster">
+          </div>
+          <p class="guitar-list__item-name guitar-list__item-name_dark">Jimmy Page Telecaster®</p>
+          <p class="guitar-list__item-price guitar-list__item-price_dark">$1,549</p>
+          <button type="button" class="guitar-list__like-button guitar-list__like-button_dark"></button>
+        </li>
+        <li class="guitar-list__item guitar-list__item_narrow">
+          <div class="guitar-list__item-background">
+            <img class="guitar-list__item-image" src="./images/guitars/stratocaster-acoustasonic-american.png" alt="American Acoustasonic Stratocaster">
+          </div>
+          <p class="guitar-list__item-name guitar-list__item-name_dark">American Acoustasonic® Stratocaster®</p>
+          <p class="guitar-list__item-price guitar-list__item-price_dark">$1,999</p>
+          <button type="button" class="guitar-list__like-button guitar-list__like-button_dark"></button>
+        </li>
+      </ul>
+    </section>
+
+    <section class="news">
+      <h2 class="section-title">latest news</h2>
+      <div class="news__grid">
+        <a class="news-block news-block_type_square" href="#">
+          <img class="news-block__image-square" src="./images/news-block__tips-for-beginners.png" alt="guitar lesson">
+          <p class="news-block__subtitle">article</p>
+          <h3 class="news-block__title-square">a&nbsp;few of our tips for beginners</h3>
+        </a>
+        <a class="news-block news-block_type_rect" href="#">
+          <img class="news-block__image-rect" src="./images/news-block__guitars.png" alt="guitars">
+          <h3 class="news-block__title-rect">corporate announcement</h3>
+          <div class="news-block__arrow"></div>
+        </a>
+        <a class="news-block news-block_type_rect" href="#">
+          <img class="news-block__image-rect" src="./images/news-block__guitar-playing.jpg" alt="guitar playing">
+          <h3 class="news-block__title-rect">how to play g major pentatonic</h3>
+          <div class="news-block__arrow"></div>
+        </a>
+      </div>
     </section>
   </content>
 
   <footer class="footer">
+    <nav class="footer__nav">
+      <ul class="footer__list">
+        <h2 class="footer__title">products</h2>
+        <li><a href="#" class="footer__list-item">Classical</a></li>
+        <li><a href="#" class="footer__list-item">Acoustic</a></li>
+        <li><a href="#" class="footer__list-item">Electric</a></li>
+        <li><a href="#" class="footer__list-item">Bass</a></li>
+        <li><a href="#" class="footer__list-item">Ukulele</a></li>
+        <li><a href="#" class="footer__list-item">Accessories</a></li>
+      </ul>
 
+      <ul class="footer__list">
+        <h2 class="footer__title">about us</h2>
+        <li><a href="#" class="footer__list-item">Newsroom</a></li>
+        <li><a href="#" class="footer__list-item">Support</a></li>
+        <li><a href="#" class="footer__list-item">About</a></li>
+        <li><a href="#" class="footer__list-item">Careers</a></li>
+        <li><a href="#" class="footer__list-item">Contact us</a></li>
+        <li><a href="#" class="footer__list-item">Manuals</a></li>
+      </ul>
+
+      <ul class="footer__list">
+        <h2 class="footer__title">region</h2>
+        <li><a href="#" class="footer__list-item">North America</a></li>
+        <li><a href="#" class="footer__list-item">South America</a></li>
+        <li><a href="#" class="footer__list-item">South-East Asia</a></li>
+        <li><a href="#" class="footer__list-item">Europe</a></li>
+        <li><a href="#" class="footer__list-item">Australia</a></li>
+      </ul>
+    </nav>
   </footer>
   <script src="./scripts/index.js"></script>
 </body>

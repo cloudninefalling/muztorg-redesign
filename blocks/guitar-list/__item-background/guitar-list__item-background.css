@@ -1,0 +1,6 @@
+.guitar-list__item-background {
+  grid-area: image;
+  cursor: pointer;
+  background-color: #f5f2eb;
+  display: flex;
+}

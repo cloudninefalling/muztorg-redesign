@@ -1,0 +1,12 @@
+.news-block__title-rect {
+  margin: 0;
+
+  font-style: normal;
+  font-weight: 800;
+  font-stretch: expanded;
+  font-size: 18px;
+  line-height: 135%;
+  text-transform: uppercase;
+
+  color: rgba(13, 13, 12, 0.9);
+}

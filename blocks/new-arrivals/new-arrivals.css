@@ -1,0 +1,10 @@
+.new-arrivals {
+  display: grid;
+  grid-template-areas:
+    'title .'
+    'subtitle guitar-list'
+    'button guitar-list';
+  overflow-x: hidden;
+  grid-template-columns: max-content 1fr;
+  padding-bottom: 100px;
+}

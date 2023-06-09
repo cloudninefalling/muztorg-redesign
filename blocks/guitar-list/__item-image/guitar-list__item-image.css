@@ -1,5 +1,5 @@
 .guitar-list__item-image {
-  width: 100%;
   grid-area: image;
-  cursor: pointer;
+  z-index: 1;
+  margin: auto;
 }

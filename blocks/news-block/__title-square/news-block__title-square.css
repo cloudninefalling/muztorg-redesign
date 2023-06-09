@@ -1,0 +1,16 @@
+.news-block__title-square {
+  grid-area: title;
+  margin: 0 0 30px 30px;
+  z-index: 1;
+  width: 402px;
+
+  font-style: normal;
+  font-weight: 800;
+  font-stretch: expanded;
+  font-size: 42px;
+  line-height: 110%;
+  text-transform: uppercase;
+  color: rgba(249, 247, 241, 0.9);
+
+  -webkit-text-stroke: 0.4px #000;
+}

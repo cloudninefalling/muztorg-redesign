@@ -1,0 +1,8 @@
+.news-block__arrow {
+  background-image: url(../../../images/arrow-right.svg);
+  background-size: cover;
+  width: 60px;
+  height: 18px;
+  grid-area: arrow;
+  justify-self: end;
+}

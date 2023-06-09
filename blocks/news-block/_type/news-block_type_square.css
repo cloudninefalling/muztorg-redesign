@@ -1,0 +1,15 @@
+.news-block_type_square {
+  grid-area: square;
+  display: grid;
+  grid-template-areas:
+    '.'
+    'subtitle'
+    'title';
+  text-decoration: none;
+  gap: 10px;
+  grid-template-rows: 1fr max-content max-content;
+}
+
+.news-block_type_square:hover .news-block__image-square {
+  opacity: 0.7;
+}

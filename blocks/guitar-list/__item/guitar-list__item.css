@@ -1,7 +1,7 @@
 .guitar-list__item {
   position: relative;
   display: grid;
-  max-width: 402px;
+  width: 402px;
   grid-template-areas:
     'image image'
     '. .'
@@ -9,6 +9,6 @@
     '. .'
     'price like';
   grid-template-columns: auto 20px;
-  grid-template-rows: max-content 12px max-content 8px max-content;
+  grid-template-rows: 483px 12px max-content 8px max-content;
   overflow: hidden;
 }
