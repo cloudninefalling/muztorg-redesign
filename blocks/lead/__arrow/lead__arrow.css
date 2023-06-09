@@ -1,0 +1,8 @@
+.lead__arrow {
+  background-image: url(../../../images/lead__arrow.svg);
+  background-size: cover;
+  height: 81px;
+  width: 28px;
+  grid-area: button;
+  opacity: 0.9;
+}

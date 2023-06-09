@@ -1,0 +1,15 @@
+.guitar-list__like-button {
+  background-color: transparent;
+  border: none;
+  background-image: url(../../../images/like-button.svg);
+  background-size: cover;
+  width: 20px;
+  aspect-ratio: 1/1;
+  grid-area: like;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.guitar-list__like-button:hover {
+  opacity: 0.8;
+}

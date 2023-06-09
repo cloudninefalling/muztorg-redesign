@@ -1,0 +1,7 @@
+.categories__list {
+  list-style: none;
+  margin: 0 60px 100px;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}

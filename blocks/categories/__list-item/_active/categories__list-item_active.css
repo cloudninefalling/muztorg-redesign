@@ -1,0 +1,7 @@
+.categories__list-item_active {
+  width: 402px;
+  padding-top: calc(270px - 12px);
+  padding-left: 0;
+  writing-mode: horizontal-tb;
+  color: #E35325;
+}

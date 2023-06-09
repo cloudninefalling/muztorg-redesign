@@ -1,0 +1,12 @@
+.guitar-list__item-name {
+  font-style: normal;
+  font-weight: 450;
+  font-size: 14px;
+  line-height: 100%;
+  color: rgba(249, 247, 241, 0.7);
+  grid-area: name;
+  margin: 0;
+  text-overflow: ellipsis;
+  cursor: pointer;
+  width: max-content;
+}

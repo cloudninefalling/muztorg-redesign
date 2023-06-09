@@ -1,0 +1,18 @@
+.lead__button {
+  background-size: cover;
+  width: 172px;
+  aspect-ratio: 1/1;
+  position: absolute;
+  right: 50px;
+  bottom: 50px;
+  display: grid;
+  grid-template-areas: 'button';
+  align-items: center;
+  justify-items: center;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.lead__button:hover {
+  opacity: 0.6;
+}

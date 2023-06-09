@@ -1,0 +1,11 @@
+.guitar-list__item-price {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 100%;
+  color: #F9F7F1;
+  grid-area: price;
+  margin: 0;
+  cursor: pointer;
+  width: min-content;
+}

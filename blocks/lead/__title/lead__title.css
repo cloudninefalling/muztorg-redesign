@@ -1,0 +1,12 @@
+.lead__title {
+  width: 613px;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 56px;
+  line-height: 110%;
+  text-transform: uppercase;
+  color: rgba(13, 13, 12, 0.9);
+  font-stretch: expanded;
+  margin: calc(50vh - 137px - 56px) auto 0;
+  /* top margin = half screen - header - font size */
+}

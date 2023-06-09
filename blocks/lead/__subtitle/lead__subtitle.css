@@ -1,0 +1,11 @@
+.lead__subtitle {
+  margin: 18px auto 0;
+  width: max-content;
+  font-style: normal;
+  font-stretch: expanded;
+  font-weight: 800;
+  font-size: 12px;
+  line-height: 110%;
+  text-transform: uppercase;
+  color: rgba(13, 13, 12, 0.9);
+}

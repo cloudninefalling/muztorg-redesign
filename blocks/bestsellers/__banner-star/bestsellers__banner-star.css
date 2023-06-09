@@ -1,0 +1,9 @@
+.bestsellers__banner-star {
+  min-width: 60px;
+  aspect-ratio: 1/1;
+  margin: 10px 0;
+  background-image: url(../../../images/bestsellers__banner-star.svg);
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: center;
+}

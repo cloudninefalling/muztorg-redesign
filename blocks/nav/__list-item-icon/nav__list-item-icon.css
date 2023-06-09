@@ -1,0 +1,7 @@
+.nav__list-item-icon {
+  height: 20px;
+  width: 20px;
+  background-size: cover;
+  display: inline-block;
+  margin-right: 4px;
+}

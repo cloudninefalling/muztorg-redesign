@@ -1,0 +1,28 @@
+@font-face {
+  font-family: 'Neue Helvetica';
+  src: url(./HelveticaNeueCyr-Medium.woff2);
+  font-weight: 450;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Neue Helvetica';
+  src: url(./Helvetica\ Neue\ LT\ Std\ 83\ Heavy\ Extended.otf);
+  font-weight: 800;
+  font-style: normal;
+  font-stretch: expanded;
+}
+
+@font-face {
+  font-family: 'Neue Helvetica';
+  src: url(./HelveticaNeueCyr-Heavy.woff2);
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Neue Helvetica';
+  src: url(./HelveticaNeueCyr-Light.woff2);
+  font-weight: 400;
+  font-style: normal;
+}

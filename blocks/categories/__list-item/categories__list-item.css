@@ -1,0 +1,18 @@
+.categories__list-item {
+  width: 150px;
+  height: 540px;
+  background-color: #E35325;
+  padding-left: calc(75px - 12px);
+  box-sizing: border-box;
+  position: relative;
+  cursor: pointer;
+
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 110%;
+  text-transform: uppercase;
+  color: #F9F7F1;
+  writing-mode: sideways-lr;
+  text-align: center;
+}

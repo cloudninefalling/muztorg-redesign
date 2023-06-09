@@ -1,0 +1,11 @@
+.nav__list-item {
+  font-style: normal;
+  font-weight: 450;
+  font-size: 14px;
+  line-height: 135%;
+  text-decoration: none;
+  color: rgba(13, 13, 12, 0.8);
+  height: 20px;
+  display: flex;
+  align-items: center;
+}

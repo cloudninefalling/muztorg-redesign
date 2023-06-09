@@ -1,0 +1,21 @@
+.bestsellers__banner {
+  margin-top: 30px;
+  margin-bottom: 60px;
+  display: flex;
+  gap: 36px;
+  width: calc(100vw + 398px);
+  align-items: center;
+  border-top: 1px solid rgba(250, 249, 245, 0.2);
+  border-bottom: 1px solid rgba(250, 249, 245, 0.2);
+  animation: scroll-x 4s infinite linear;
+}
+
+@keyframes scroll-x {
+  from {
+    transform: translate(-398px);
+  }
+
+  to {
+    transform: translate(0);
+  }
+}

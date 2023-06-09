@@ -1,0 +1,10 @@
+.bestsellers__banner-span {
+  margin: 22px 0;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 100%;
+  text-transform: uppercase;
+  color: #FAF9F5;
+  min-width: 266px;
+}

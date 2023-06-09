@@ -1,0 +1,19 @@
+.lead__explore {
+  background-image: url(../../../images/lead__explore.svg);
+  background-size: cover;
+  width: 165px;
+  aspect-ratio: 1/1;
+  grid-area: button;
+  animation: rotation 13s linear infinite normal;
+  align-self: flex-end;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
